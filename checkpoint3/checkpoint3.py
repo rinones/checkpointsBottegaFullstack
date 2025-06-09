@@ -27,7 +27,7 @@ print(plus_ten)
 # Ejercicio 5
 print('------')
 
-last_element = nombre[-5:]
+last_element = lista[-1]
 
 print(last_element)
 
