@@ -23,7 +23,7 @@ print("-" * 30)
 
 # Exercise 2: Round your float up. 
 
-my_float_round = round(my_float)
+my_float_round = math.ceil(my_float)
 print("Exercise 2:")
 print("my_float_round:", my_float_round)
 print("-" * 30)
@@ -73,7 +73,7 @@ print("-" * 30)
  
 # Exercise 9: Use reassignment to add an element to your tuple. 
 
-my_tuple = my_tuple + (4,)
+my_tuple += (4,)
 print("Exercise 9:")
 print("my_tuple after adding 4:", my_tuple)
 print("-" * 30)
