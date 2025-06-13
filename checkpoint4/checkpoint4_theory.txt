@@ -1,0 +1,23 @@
+¿Cuál es la diferencia entre una lista y una tupla en Python?
+
+La diferencia principal es que una lista se puede modificar después de crearla, mientras que una tupla no. Por ejemplo, si se tiene una lista como [1, 2, 3], se puede añadir un elemento con mi_lista.append(4) y la lista pasa a ser [1, 2, 3, 4]. En cambio, si se tiene una tupla (1, 2, 3), no es posible cambiar sus valores ni agregar nuevos. Por eso, las tuplas se usan cuando se quiere que los datos no cambien, como en coordenadas o fechas.
+
+
+¿Cuál es el orden de las operaciones?
+
+Python sigue el mismo orden que en matemáticas: primero los paréntesis, luego las potencias (**), después multiplicación (*) y división (/), y al final suma (+) y resta (-). Por ejemplo, en la expresión 2 + 3 * (4 ** 2), primero se calcula 4 ** 2 (que es 16), luego 3 * 16 (que es 48), y al final 2 + 48, que da 50.
+
+
+¿Qué es un diccionario Python?
+
+Un diccionario es una estructura que guarda datos en pares de clave y valor. Por ejemplo, {'nombre': 'Ana', 'edad': 20}. Para acceder a un dato, se usa la clave, como diccionario['nombre'], que devolvería 'Ana'. Los diccionarios son útiles para organizar información relacionada y permiten buscar datos de forma rápida.
+
+
+¿Cuál es la diferencia entre el método ordenado y la función de ordenación?
+
+El método sort() ordena una lista y la modifica directamente, es decir, cambia el orden de los elementos en la lista original y no devuelve nada. Por ejemplo, si se tiene lista = [3, 1, 2] y se hace lista.sort(), la lista queda como [1, 2, 3]. En cambio, la función sorted() devuelve una nueva lista ordenada y deja la original igual. Por ejemplo, sorted([3, 1, 2]) devuelve [1, 2, 3], pero la lista original no cambia.
+
+
+¿Qué es un operador de reasignación?
+
+Un operador de reasignación sirve para actualizar el valor de una variable usando su valor actual y una operación, de forma más corta. Por ejemplo, x += 2 es lo mismo que x = x + 2. También existen -=, *=, /=, etc. Se usan mucho en bucles o cuando se necesita actualizar contadores de manera sencilla.
